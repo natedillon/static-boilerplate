@@ -1,0 +1,16 @@
+# System files
+.DS_Store
+
+# DreamHost favicons
+# /favicon.ico
+# /favicon.gif
+
+# Jekyll
+# _site
+# .jekyll-metadata
+
+# npm
+node_modules/
+
+# Sass
+.sass-cache
