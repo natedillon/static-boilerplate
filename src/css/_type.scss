@@ -1,0 +1,92 @@
+//
+// Typography
+// --------------------------------------------------
+
+// Typographic Scale
+// -------------------------
+//
+// Taken from A Practical Guide to Designing for the Web by Mark Boulton.
+//
+// 6pt:  nonpareil
+// 7pt:  minion
+// 8pt:  brevier or small text
+// 9pt:  bourgeois or galliard
+// 10pt: long primer or garamond
+// 11pt: small pica or philosophy
+// 12pt: pica
+// 14pt: english or augustin
+// 18pt: great primer
+// 21pt: double small pica or double pica
+// 24pt: double pica or two–line pica
+// 36pt: double great primer or 2-line great primer
+
+
+// Default margins
+// -------------------------
+
+p,
+ul,
+ol,
+dl {
+  margin-top: 0;
+  margin-bottom: $line-height-computed;
+}
+
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  margin-top: 0;
+  margin-bottom: ($line-height-computed / 2);
+}
+
+// Sizing based on the typographic scale
+h1, .h1 { font-size: (36 / 12) * 1em; }
+h2, .h2 { font-size: (24 / 12) * 1em; }
+h3, .h3 { font-size: (21 / 12) * 1em; }
+h4, .h4 { font-size: (18 / 12) * 1em; }
+h5, .h5 { font-size: (14 / 12) * 1em; }
+h6, .h6 { font-size: (12 / 12) * 1em; }
+
+
+// Lists
+// -------------------------
+
+ul,
+ol {
+
+  ul,
+  ol {
+    margin-bottom: 0;
+  }
+}
+
+ul {
+
+  li {}
+}
+
+dl {
+
+  dt {
+    font-weight: bold;
+  }
+
+  dd {
+    margin-left: 0;
+    margin-bottom: ($line-height-computed / 2);
+  }
+}
+
+
+// Horizontal rules
+// -------------------------
+
+hr {
+  margin-top: $line-height-computed;
+  margin-bottom: $line-height-computed;
+  border: 0;
+  border-top: 1px solid $gray-lighter;
+}

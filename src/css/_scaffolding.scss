@@ -1,0 +1,43 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  color: $text-color;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: $line-height-base;
+}
+
+
+// Links
+// -------------------------
+
+a {
+  transition: all 0.2s linear;
+
+  &:hover,
+  &:focus {
+  }
+}
+
+
+// Images
+// -------------------------
+
+img {
+  max-width: 100%;
+  height: auto;
+}
