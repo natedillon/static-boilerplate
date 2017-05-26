@@ -14,10 +14,7 @@ module.exports = function(grunt) {
     sass: {
       options: {
         sourceMap: true,
-        relativeAssets: false,
         outputStyle: 'expanded',
-        sassDir: 'src/css',
-        cssDir: 'css',
       },
       build: {
         files: [{
