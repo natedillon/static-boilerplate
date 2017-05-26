@@ -4,13 +4,31 @@
 # Server-generated favicons
 # /favicon.ico
 # /favicon.gif
-
-# Jekyll
-# _site
-# .jekyll-metadata
+# /web/favicon.ico
+# /web/favicon.gif
 
 # npm
 node_modules/
 
 # Sass
 .sass-cache
+
+# Drupal Composer files
+# /vendor/
+# /core/
+# /modules/contrib/
+# /themes/contrib/
+# /profiles/contrib/
+# /libraries/
+
+# Drupal configuration files
+# /sites/*/settings*.php
+# /sites/*/services*.yml
+
+# Drupal user-generated content
+# /sites/*/files/
+# /sites/*/private/
+
+# Jekyll
+# _site
+# .jekyll-metadata
