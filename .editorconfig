@@ -18,7 +18,7 @@ indent_style = space
 indent_size = 4
 
 # HTML, CSS, and JavaScript
-[*.{html,css,scss,sass,less,js}]
+[*.{html,twig,css,scss,sass,less,js}]
 indent_style = space
 indent_size = 2
 
